@@ -6,7 +6,7 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+  const MyApp({super.key}); 
 
   static final GoRouter _router = GoRouter(
     routes: [
@@ -21,6 +21,7 @@ class MyApp extends StatelessWidget {
     ],
   );
 
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
@@ -33,7 +34,7 @@ class MyApp extends StatelessWidget {
 
 // Home Screen
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+  const HomeScreen({super.key}); 
 
   @override
   Widget build(BuildContext context) {
